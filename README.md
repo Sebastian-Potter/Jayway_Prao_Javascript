@@ -1,8 +1,8 @@
-# Halmstad Prao 
+# Praktik Jayway
 
-I detta repo hittar du Grundläggande programerings uppgifter.
+I detta repo hittar du Grundläggande programmeringsuppgifter.
 
-## Grundläggande Javascript
+## Introduktion till Javascript
 
 ### Nedan ser vi ett antal uttalande. 
 
@@ -19,12 +19,12 @@ Texten förväntar sig att du ska ha läst föregående sida.
 Om vi kollar på exemplet ovan så skapar vi tre variabler och sen tilldelar
 de varsit värde.
 
-## Data typer
+## Datatyper
 
-### Tal och Strängar
+### Tal och strängar
 
 I Javascript finns två grundläggande data typer. Ovan ser vi två tal. Den
-andra typen är strängar. Här under så ser vi ett sträng värde. Den självklara
+andra typen är strängar. Här under så ser vi ett strängvärde. Den självklara
 skillanden mellan tal och strängar är att en sträng är en text. Medans tal 
 är siffror. 
 
@@ -52,7 +52,7 @@ En array är en samling av element. Den kan innehålla flera olika element av sa
 
 För exemple x = ["a","b","c"]; är en array som innehåller bokstäver. 
 
-Varje bokstav däri är ett element. Dessa kan vi sen hämta från listan/arrayen och jobba med de. 
+Varje bokstav däri är ett element. Dessa kan vi sen hämta från listan/arrayen och jobba med dem. 
 
 ### Object
 
@@ -87,12 +87,12 @@ console.log(x + y);
 För att tilldela ett värde till ett variabel så måste man använda lika med
 teknet __=__.
 Variabler används för att spara och återanvända information. Enligt exemplet ovan
-så har jag variablen x som har ett visst värde. Detta kan jag använda eller
+så har jag variabeln x som har ett visst värde. Detta kan jag använda eller
 ändra på andra ställen i koden. Vi ser i exemplet ovan att vi sparar två
 text strängar vilket vi sen använder för att skriva till consolen. Värdet 
 på variablerna är oförandrat och kan återanvändas på andra ställen.
 
-### Matte
+### Matematik
 
 ```javascript
 var x, y, z;
