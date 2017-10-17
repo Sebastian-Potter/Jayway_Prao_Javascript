@@ -31,9 +31,9 @@ return svar;
 
 // Uppgift 3
 function auctionHouse(mittGuld, pris, antal) {
-var guildKvar = 0;
+var guldKvar = 0;
 
-return guildKvar;
+return guldKvar;
 }
 
 // Exports
