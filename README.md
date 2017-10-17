@@ -52,7 +52,7 @@ En array är en samling av element. Den kan innehålla flera olika element av sa
 
 För exemple x = ["a","b","c"]; är en array som innehåller bokstäver. 
 
-Detta kan vi sen hämta från listan/arrayen och jobba med de. 
+Varje bokstav däri är ett element. Dessa kan vi sen hämta från listan/arrayen och jobba med de. 
 
 ### Object
 
