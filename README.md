@@ -19,6 +19,8 @@ Texten förväntar sig att du ska ha läst föregående sida.
 Om vi kollar på exemplet ovan så skapar vi tre variabler och sen tilldelar
 de varsit värde.
 
+## Data typer
+
 ### Tal och Strängar
 
 I Javascript finns två grundläggande data typer. Ovan ser vi två tal. Den
@@ -29,6 +31,47 @@ skillanden mellan tal och strängar är att en sträng är en text. Medans tal
 ```javascript
 x = "This is a String";
 ```
+
+__Utöver de två grundläggande data typerna så finns några fler data typer:__
+
+
+### Boolean
+
+Detta kan bara hålla två olika typer av värden: Sant eller Falskt eller true or false.
+Den används för att hålla koll på påståenden kolla under:
+
+```javascript
+x = 10 > 9; // true
+```
+
+Detta kommer bli sant så värdet på x är true.
+
+### Arrays/Lists
+
+En array är en samling av element. Den kan innehålla flera element olika av samma typ.
+
+För exemple x = ["a","b","c"]; är en array som innehåller bokstäver. 
+
+Detta kan vi sen hämta från listan/arrayen och jobba med de. 
+
+### Object
+
+Ett object är en datatyp som kan innehålla alla andra datatyper och till och med 
+funktioner (vi tar funktioner senare). I exemplet nedan så visar jag hur man 
+skulle kunna beskriva en person med hjälp av ett object. Vi kan komma åt informationen
+genom att kalla på objectet `person` och vi kan hämta specifik information genom
+att hämta det: `person.name -> "name"`.
+
+
+```javascript
+var person = {
+    name: "name",
+    address: "address",
+    age: 26,
+    height: "1,8 m"
+}
+```
+
 
 ### Variablar och Tilldelning
 
