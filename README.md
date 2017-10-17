@@ -60,7 +60,7 @@ Ett object är en datatyp som kan innehålla alla andra datatyper och till och m
 funktioner (vi tar funktioner senare). I exemplet nedan så visar jag hur man 
 skulle kunna beskriva en person med hjälp av ett object. Vi kan komma åt informationen
 genom att kalla på objectet `person` och vi kan hämta specifik information genom
-att hämta det: `person.name -> "name"`.
+att hämta det från objektet: `person.name -> "name"`.
 
 
 ```javascript
@@ -70,10 +70,12 @@ var person = {
     age: 26,
     height: "1,8 m"
 }
+
+console.log(person.address);
 ```
 
 
-### Variablar och Tilldelning
+### Variabler och Tilldelning
 
 ```javascript
 var x;
@@ -82,13 +84,13 @@ x = "This is a String";
 
 console.log(x + y);
 ```
-För att tilldela ett värde till ett variable så måste man använda lika med
+För att tilldela ett värde till ett variabel så måste man använda lika med
 teknet __=__.
-Variablar används för o spara och återanvända information. Enligt exemplet ovan
+Variabler används för att spara och återanvända information. Enligt exemplet ovan
 så har jag variablen x som har ett visst värde. Detta kan jag använda eller
-ändra på på andra ställen i koden. Vi ser i exemplet ovan att vi sparar två
+ändra på andra ställen i koden. Vi ser i exemplet ovan att vi sparar två
 text strängar vilket vi sen använder för att skriva till consolen. Värdet 
-på variablarna är oförandrat och kan återanvändas på andra ställen. 
+på variablerna är oförandrat och kan återanvändas på andra ställen.
 
 ### Matte
 
@@ -108,7 +110,7 @@ Ovan ser vi exempel på hur man utför enkla matematiska beräkningar.
 
 ### Uttryck
 
-Du använder ett uttryck för att beskriva vad det är du vill åstadkomma.
+Vi använder uttryck för att beskriva vad det är vi vill åstadkomma.
 
 Räkna ut hur många timmar du har jobbat:
 ```javascript
@@ -152,5 +154,5 @@ Math
 String
 ```
 
-All reserverade ord är byggda att utföra viss funktionalitet som ska underlätta
+Alla reserverade ord är byggda att utföra viss funktionalitet som ska underlätta
 jobbet för de som programerar. 
