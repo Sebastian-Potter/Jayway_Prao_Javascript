@@ -16,35 +16,27 @@ function checkBool(boolean) {
 }
 
 /**
- * Skapa en sträng som beskriver hur mycket pengar köpet kostade, hur mycket pengar har kunden gett och hur mycket fick kunden tillbaka uppdelat på sedlar.
- * Ex: "Kostnad: 80 kr, Total: 100 kr, Rest 1 st 20 kr
- * Ex: "Kostnad: 60 kr, Total: 100 kr, Rest 2 st 20 kr
- * @param cost Totala priset som har handlats för
- * @param total Pengarna som kunden har get.
- * @returns {string} Skapa en sträng som beskriver hur mycket
+ * Ta emot ett värde mellan 0 och 24 och svara med ett av tre svar.
+ * Svaret kan vara "God morgon", "God dag" eller "God kväll"
+ * Morgon sträcker sig fram tills 10 och dag sträcker sig fram tills 20
+ * @param time Ett tal mellan 0 och 24.
+ * @returns {string} En sträng ("God morgon","God dag","God kväll")
  */
-function checkNumber(cost, total) {
-    var change = total - cost;
-    console.log(change);
-    // TODO Lägg till din kod
+function greetings(time) {
+    // TODO lägg till din kod
+}
 
-    if(change / 100){
-        console.log(change / 100);
-        return "";
-    }else if (change / 50){
-
-    }else if (change / 20){
-
-    }else if (change / 10){
-
-    }else if (change / 5){
-
-    }else if (change / 2){
-
-    }else {
-
-    }
+/**
+ * Kolla talet om den är giltig.
+ * Ett tal är giltig om den är 0 eller 50, alla tal som är mellan 100 och 150 är giltiga allt annat är ogiltigt.
+ * Om ett tal är giltigt returnera true annars returnera false.
+ * @param number
+ * @returns {boolean}
+ */
+function isValid(number) {
+    // TODO lägg till kod
 }
 
 exports.checkBool = checkBool;
-exports.checkNumber = checkNumber;
+exports.greetings = greetings;
+exports.isValid = isValid;
