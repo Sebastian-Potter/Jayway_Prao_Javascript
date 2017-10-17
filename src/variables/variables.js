@@ -10,10 +10,12 @@ var number;
 var string;
 var numberString;
 
-number = 10;
-string = "string";
-numberString = "2";
+// Din kod går här
 
+
+/**
+ * Exports
+ */
 exports.number = number;
 exports.string = string;
 exports.numberString =  numberString;
