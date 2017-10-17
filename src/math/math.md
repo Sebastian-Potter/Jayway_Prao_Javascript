@@ -1,13 +1,13 @@
 # Matematik (*Math*)
 
-###De grundläggande matematiska operatörerna är:
+### De grundläggande matematiska operatörerna är:
 * \+ Addera (*Add*)
 * \- Subtrahera (*Subtract*)
 * /  Dividera (*Divide*)
 * \* Multiplicera (*Multiply*)
 * % Resten (*Remainder*)
 
-####Kod exempel:
+#### Kod exempel:
 * `1 + 2;` kommer ge svaret  `3`
 * `7 - 2;` kommer ge svaret `5`
 * `10 / 2;` kommer ge svaret `5`
@@ -23,14 +23,14 @@ Variabeln `pengar` börjar med värdet 100 och `betala` börjar med värdet 25.
 Sen säger vi att `pengar` har värdet av `pengar - betala`,
 100 - 25 vilket blir 75 så `pengar` har nu värdet 75 istället för 100 som den hade ibörjan.
 
-###Uppgift 1
+### Uppgift 1
 **Simpla matematiska operationer**
 
 Fyll i koden för funktionerna `addera(a, b)`, `subtrahera(a, b)`, `dividera(a, b)`, `multiplicera(a, b)` och `rest(a, b)`.
 
 De får in variablerna `a` och `b` som vi ser i `(a, b)` biten.
 
-###Uppgift 2
+### Uppgift 2
 **Distans omvandling**
 
 Du ska gå ifrån hemmet till en sportbutik. Du har skrivit in Adressena för ditt hem och butiken men du råkade klicka på något 
@@ -45,7 +45,7 @@ Fyll in koden för funktionen `distansOmvandlarn(distans, storleksSkillnad)`.
 Spara svaret i variabeln `svar` som är redan skapad i funktionen.
 
 
-###Uppgift 3
+### Uppgift 3
 **WoW Auction House**
 
 Du vill ha plats för fler förremål i din väska i WoW så du tänker köpa 
