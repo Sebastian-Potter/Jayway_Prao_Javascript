@@ -9,8 +9,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.5.3",
-    "standard": "*"
+    "mocha": "^3.5.3"
   },
   "directories": {
     "test": "test"
