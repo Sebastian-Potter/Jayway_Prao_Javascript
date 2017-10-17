@@ -21,7 +21,7 @@ pengar = pengar - betala;
 ```
 Variabeln `pengar` börjar med värdet 100 och `betala` börjar med värdet 25.
 Sen säger vi att `pengar` har värdet av `pengar - betala`,
-100 - 25 vilket blir 75 så `pengar` har nu värdet 75 istället för 100 som den hade ibörjan.
+100 - 25 blir 75 så `pengar` har nu värdet 75 istället för 100 som den hade ibörjan.
 
 ### Uppgift 1
 **Simpla matematiska operationer**
