@@ -37,18 +37,18 @@ __Utöver de två grundläggande data typerna så finns några fler data typer:_
 
 ### Boolean
 
-Detta kan bara hålla två olika typer av värden: Sant eller Falskt eller true or false.
+Detta kan bara hålla två olika typer av värden: Sant eller Falskt dvs true or false.
 Den används för att hålla koll på påståenden kolla under:
 
 ```javascript
 x = 10 > 9; // true
 ```
 
-Detta kommer bli sant så värdet på x är true.
+Eftersom 10 är större än 9 sä blir detta påstående sant dvs x är true. 
 
 ### Arrays/Lists
 
-En array är en samling av element. Den kan innehålla flera element olika av samma typ.
+En array är en samling av element. Den kan innehålla flera olika element av samma typ.
 
 För exemple x = ["a","b","c"]; är en array som innehåller bokstäver. 
 
