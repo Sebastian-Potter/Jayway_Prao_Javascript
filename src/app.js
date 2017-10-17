@@ -1,9 +1,9 @@
-'use strict'
+'use strict';
 
 // run tests with 'npm test'
 
 var sc = require("./black-adder");
-var result = sc.add(1, 2);
+var result = sc.add(1, 2, 3);
 
 // Test the sum-function here
 

@@ -1,10 +1,3 @@
-/**
- * Module for a simple calculator
- *
- * @author thajo
- * @version 1.0.0
- */
-
 "use strict";
 
 exports.add = function() {
@@ -21,7 +14,7 @@ exports.add = function() {
             result += parseFloat(arguments[i].replace(",", "."));
         }
 
-    };
+    }
     return result;
   //var sum = calc.add(1, 3);
     //console.log(sum);
