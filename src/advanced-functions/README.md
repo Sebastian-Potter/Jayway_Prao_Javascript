@@ -33,7 +33,7 @@ Ta emot listen och returnera den minsta värdet.
 
 Ta emot listan och returnera variationsbredden.
 
-##Tips
+## Tips
 
 Glöm inte att exportera dina funktioner längst ner i filen.
 
