@@ -8,11 +8,6 @@
  */
 function checkBool(boolean) {
     // TODO Lägg till din kod.
-    if (boolean){
-        return "true";
-    }else {
-        return "false";
-    }
 }
 
 /**
