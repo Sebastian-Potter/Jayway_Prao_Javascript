@@ -102,3 +102,7 @@ exports.getIndexOfQuestionMark = getIndexOfQuestionMark;
 exports.isEqual = isEqual;
 exports.isOdd = isOdd;
 exports.isEven = isEven;
+
+exports.basic = {
+    roundUp: roundUp
+};
