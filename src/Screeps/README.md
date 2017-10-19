@@ -41,6 +41,11 @@ minnet (`Memory`).
 Game.spawns['Spawn1'].spawnCreep( [WORK, CARRY, MOVE], "harvester1");
 ```
 ```
+// Spawn a creep with the name "builder1" with { role: 'builder' } in its memory
+Game.spawns['Spawn1'].spawnCreep( [WORK, CARRY, MOVE], 'Builder1',
+    { memory: { role: 'builder' } } );
+```
+```
 // Sort sources based on range from the creep
 _.sortBy(sources, s => creep.pos.getRangeTo(s))
 ```
