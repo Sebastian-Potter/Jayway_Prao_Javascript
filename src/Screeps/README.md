@@ -46,7 +46,7 @@ Uppdatera din kod så harvesters gör något när de har max energi på sig och 
 * Släng all energi på marken som harvestern har på sig. Nu kan han börja jobba igen. (Borde ha ett creep som samlar upp energi som ligger på marken om du slänger det...) **Tips:** kolla om energin på marken är större än 15 (eller 20?) om ett creep ska gå för att plocka upp det.
 
 ## Uppgift 6 - Reparation av väggar till max HP? Kanske inte i början...
-Koden för att hitta skadade bygnnader som du får från tutorial:en har en klar brist, den vill reparera varje gynnad till max HP vilket inte låter så hemskt fram tills man kollar hur mycket HP en vägg kan ha. Ändra koden för att kolla att byggnadens hp är mindre än 10 000 också ovanpå det gamla. T ex (`strucuture.hits < structure.maxhits && structure.hits < 10000`)
+Koden för att hitta skadade byggnader som du får från tutorial:en har en klar brist, den vill reparera varje byggnad till max HP vilket inte låter så hemskt fram tills man kollar hur mycket HP en vägg kan ha. Ändra koden för att kolla att byggnadens hp är mindre än 10 000 också ovanpå det gamla. T ex (`strucuture.hits < structure.maxhits && structure.hits < 10000`)
 
 ## Kod hjälp
 ```
