@@ -35,6 +35,16 @@ Uppdatera din kod så att den automatiskt skapar nya arbetare när en dör.
 
 **Tips:** Baserat på hur du implementerar detta så behöver du kanske rensa
 minnet (`Memory`).
+
+## Uppgift 5 - Energilagret fullt!
+Om alla lagringsplatser för energi är fulla vad gör dina harvesters när de har samlat ihop energi? Står de stilla och gör inget?
+
+Uppdatera din kod så harvesters gör något när de har max energi på sig och alla lager är fulla. Vad de gör är upp till dig. Några förslag finner du nedan.
+
+* Kolla om det finns någon byggplats inom 1 rutas avstånd från harvestern. Om det finns så bygg på den.
+* Kolla om det finns någon byggnad inom 1 rutas avstånd från harvestern som inte är på max HP. Om det finns så reparera den.
+* Släng all energi på marken som harvestern har på sig. Nu kan han börja jobba igen. (Borde ha ett creep som samlar upp energi som ligger på marken om du slänger det...) **Tips:** kolla om energin på marken är större än 15 (eller 20?) om ett creep ska gå för att plocka upp det.
+
 ## Kod hjälp
 ```
 // Spawn a creep with the name "harvester1"
