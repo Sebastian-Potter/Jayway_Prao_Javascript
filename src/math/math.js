@@ -31,7 +31,7 @@ return svar;
 
 // Uppgift 3
 function auctionHouse(mittGuld, pris, antal) {
-var guldKvar = 0;
+var guldKvar = mittGuld - (pris * antal);
 
 return guldKvar;
 }

@@ -29,7 +29,13 @@ function greetings(time) {
  * @returns {boolean}
  */
 function isValid(number) {
-    // TODO lägg till kod
+    if (number === 0 ) {
+        return true;
+    }else if (number <= 150 && number >= 100){
+        return true;
+    }else {
+        return false;
+    }
 }
 
 exports.checkBool = checkBool;

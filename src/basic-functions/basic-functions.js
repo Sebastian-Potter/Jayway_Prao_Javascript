@@ -78,7 +78,11 @@ function isEqual (str1, str2) {
  * @returns {boolean} true if number is odd; otherwise, false.
  */
 function isOdd (number) {
-    // TODO: Write your code here.
+    if (number % 2){
+        return true;
+    }else {
+        return false
+    }
 }
 
 /**
